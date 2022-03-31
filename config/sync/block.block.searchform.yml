@@ -1,0 +1,21 @@
+uuid: aa9c6dda-89f7-45f5-86ca-9257fed988c4
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - imdb
+id: searchform
+theme: imdb
+region: header
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

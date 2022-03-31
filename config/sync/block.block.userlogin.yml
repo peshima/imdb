@@ -1,0 +1,20 @@
+uuid: 17213b01-1461-4226-9859-494e22dfaadb
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - imdb
+id: userlogin
+theme: imdb
+region: header
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  label_display: visible
+  provider: user
+visibility: {  }

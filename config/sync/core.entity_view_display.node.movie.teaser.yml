@@ -1,0 +1,38 @@
+uuid: 49d7bc10-3073-4c47-812f-159290176f29
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.movie.body
+    - field.field.node.movie.field_movie_actors
+    - field.field.node.movie.field_movie_poster
+    - field.field.node.movie.field_movie_synopsis
+    - field.field.node.movie.field_movie_title
+    - node.type.movie
+  module:
+    - text
+    - user
+id: node.movie.teaser
+targetEntityType: node
+bundle: movie
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_movie_actors: true
+  field_movie_poster: true
+  field_movie_synopsis: true
+  field_movie_title: true

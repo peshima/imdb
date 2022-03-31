@@ -1,0 +1,38 @@
+uuid: a5bdf2fe-5952-4273-b1f5-c8022b7539fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.actor.body
+    - field.field.node.actor.field_actor_biography
+    - field.field.node.actor.field_actor_movies
+    - field.field.node.actor.field_actor_name
+    - field.field.node.actor.field_actor_picture
+    - node.type.actor
+  module:
+    - text
+    - user
+id: node.actor.teaser
+targetEntityType: node
+bundle: actor
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_actor_biography: true
+  field_actor_movies: true
+  field_actor_name: true
+  field_actor_picture: true

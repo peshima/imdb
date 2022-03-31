@@ -1,0 +1,41 @@
+#content {
+
+    background: white;
+    font-family: Monospace;
+    div {
+        column-count: 3;
+      }
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+
+}
+
+#header {
+    background: gray;
+    background-color: blueviolet;
+    font-family: Monospace;
+}
+#highlighted {
+    background: gray;
+    font-family: Monospace;
+
+}
+
+#featured_top {
+    background: gray;
+    font-family: Monospace;
+}
+#featured_bottom_second {
+    background: gray;
+    font-family: Monospace;
+
+}
+
+#footer_second {
+    background: gray;
+    font-family: Monospace;
+}

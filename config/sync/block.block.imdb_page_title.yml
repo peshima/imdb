@@ -1,0 +1,20 @@
+uuid: 6acfa482-cec5-4fe5-bf98-289b122c38f0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - imdb
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: imdb_page_title
+theme: imdb
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

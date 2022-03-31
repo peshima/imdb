@@ -1,0 +1,22 @@
+uuid: 9046a9da-8510-4cfa-b5af-b474f7f15302
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - imdb
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: imdb_messages
+theme: imdb
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

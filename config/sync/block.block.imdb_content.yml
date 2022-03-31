@@ -1,0 +1,22 @@
+uuid: 05eeae42-5377-43b0-bdfb-f36c6ce19e9b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - imdb
+_core:
+  default_config_hash: kigu8pTxXt1qGR2NJ5HHdC4G2G1wsDrIjLPKBT5wUBc
+id: imdb_content
+theme: imdb
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
